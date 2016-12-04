@@ -2,13 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
 
 body{
 	/*display: flex;*/
 	/*min-height:100vh;*/
-	background: #EFC076;
-	text-align: center;
+	text-align: center;*/
 }
 
 
@@ -48,9 +48,10 @@ body{
 }
 
 .icon:hover {
-	padding-right: 3rem;
-	border-radius: 1rem 0 0 1rem;
-	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+	padding-right: 5rem;
+	border-radius: 2rem 0 0 2rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0);
+	text-decoration: none;
 }
 .banner{
 	background: url(img/super.jpg);
@@ -129,17 +130,6 @@ body{
 	}
 }
 
-.header{
-	background: #333;
-	display: block; 
-	text-decoration: underline;
-	font: 60px Helvetica, Arial, Sans-Serif; 
-	letter-spacing: -5px;  
-	text-align: center;
-	color: #999; 
-	text-shadow: 0px 3px 8px #2a2a2a;
-}
-
 header{
 	background: #333;
 	color: #EFE5E5;
@@ -147,21 +137,8 @@ header{
 	font-size: 2.5rem;
 }
 
-#main_container
-{
-	width:900px;
-	margin: 10px auto;
-	background: #516A83;
-
-	-webkit-border-radius:10px; /*chrome  Safari*/
-    -moz-border-radius:10px;/* Firefox*/
-    -o-border-radius:10px;/*Opera*/
-    border-radius:10px;/*estandar*/
-	
-	/*margin-left:5%;*/
-	padding-top:5px;
-	padding-bottom:5px;
-	border: 3px outset;
+ul, ol {
+	list-style: none;
 }
 
 #Letras{
@@ -172,56 +149,12 @@ header{
 	text-shadow: 0px 2px 2px #171717;
 }
 
-ul, ol {
-	list-style: none;
-}
-
-.menu > ul
-{
-	display: table;
-	width: 100%;
-	background: #000;
-	position: relative;
-	/*float:left;
-	border: 1px dashed;
-	padding: 2%;
-	width:95%;*/
-}
-
-.menu > ul > li
-{
-	display: table-cell;
-	/*float:left;
-	margin-right:20px;
-	margin-bottom:10px;
-	background: #ff812d;
-	padding:5px;
-	border-radius: 15%;*/
-}
-
-nav > ul > li:hover{
-	background: #D2A5A5;
-	-webkit-border-radius:10px; /*chrome  Safari*/
-    -moz-border-radius:10px;/* Firefox*/
-    -o-border-radius:10px;/*Opera*/
-    border-radius:10px;/*estandar*/
-}
-
-nav > ul li a {
-	color:#fff;
-	display: block;
-	line-height: 20px;
-	padding: 20px;
-	position: relative;
-	text-align: center;
-	text-decoration: none;
-}
 
 .footer{
 	
 	/*clear: both;*/
 	text-align: center;
-	/*background: #000;*/
+	background: #000;
 	color: #F9EEEE;
 	padding: 20px;
 	font-size: 1.5em; /* 30px/16=1.875em */
@@ -231,3 +164,16 @@ nav > ul li a {
 	
 }
 
+.color1{
+	background: #A4A2BB;
+	color: #000;
+}
+
+.color2{
+	background: #E5E1E1;
+}
+
+.colorPie{
+	background: #190CCB;
+	color: #fff;
+}

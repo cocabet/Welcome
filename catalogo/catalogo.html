@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CATÁLOGO DE PROFESORES</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+		<div class="container">
+			<h1>Programación Web</h1>
+		</div>
+	</header>
+<p>
+<div class="container"> 
+    <form class="form-group">
+        <select class="form-control" id="institutos">
+            <option value="0">Ninguno</option>
+        </select>
+    </form>
+	
+	<div class="row">
+		<div class=" col-xs-12 col-sm-6 col-md-6">
+			
+	        <form class="form-group">
+                <select class="form-control" id="profesores">
+                    <option value="0">Ninguno</option>
+                </select>
+            </form>
+			<!--<ul class="list-group" id="profesores">
+			</ul>-->
+		</div>
+
+		<div class="color1 col-xs-12 col-sm-6 col-md-6" id="InfProf">
+		</div>
+	</div>			
+</div>
+
+<div class="container">
+	
+
+	<button class="btn btn-primary" onclick="GraphicsPI()">Profesores por Instituto</button>
+	<!--<button class="btn btn-info" onclick="GraphicsMC()">Matricula por carrera</button>-->
+	 
+	<div class="btn-group">
+	 <button  class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	 	Matricula por Carrera <span class="caret"></span>
+    </button>
+    <ul id="matricula" class="dropdown-menu" >
+      
+    </ul>
+  </div>
+
+	<button class="btn btn-primary" onclick="RemoveGraphics()">Quitar Gráfica</button>
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 container" id="pintar">
+			<!--<canvas id="canvas" height="700" width="900"></canvas>-->
+		</div>
+	</div>		
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>  
+<script src="js/Funcion.js"></script>
+<script src="js/Chart.bundle.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+</html>

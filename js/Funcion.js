@@ -229,15 +229,14 @@ function Graficar(ArregloDatos,Etiquetas,Datos) {
 		lienzo.setAttribute('height','700');
 		lienzo.setAttribute('width','900');
 		select.appendChild(lienzo);
-		console.log(lienzo);
 
 	var color = Chart.helpers.color;
 	var horizontalBarChartData = {
             labels: Etiquetas,
             datasets: [{
                 label: Datos,
-                backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
-                borderColor: window.chartColors.red,
+                backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+                borderColor: window.chartColors.blue,
                 borderWidth: 1,
                 data: ArregloDatos
                     

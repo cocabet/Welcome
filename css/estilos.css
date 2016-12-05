@@ -10,8 +10,17 @@ body{
 	/*min-height:100vh;*/
 	text-align: center;*/
 }
+.fondo{
+	background: #BFBEC2;
+}
 
+li{
+	background: #DCD1D1;	
+}
 
+li a{
+	color:#000;
+}
 .social-bar{
 	position: fixed;
 	right: 0;
@@ -47,12 +56,41 @@ body{
 	background: #ae181f;
 }
 
+.icon-blogger {	
+	color: #E4902D;
+}
+
+.icon-profile {	
+	color: #27D65D;
+}
+
+.icon-book{
+	color: #980D0D;
+}
+
+.icon-home2{
+	color:#6506B6;
+}
+
+.icon-user{
+	color: #339DC5;
+}
+
+.icon-grin2{
+	color: #339DC5;
+}
 .icon:hover {
+	color: white;
 	padding-right: 5rem;
 	border-radius: 2rem 0 0 2rem;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0);
 	text-decoration: none;
 }
+
+.button span{
+	margin-right: 10px;
+}
+
 .banner{
 	background: url(img/super.jpg);
 }

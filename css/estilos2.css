@@ -2,7 +2,17 @@ header{
 	background: #2c3e50;
 	color: #fff;
 }
+.fondo{
+	background: #BFBEC2;
+}
 
+li{
+	background: #DCD1D1;	
+}
+
+li a{
+	color:#000;
+}
 .main{
 	background: #f2f2f2;
 }
@@ -27,3 +37,74 @@ footer{
 	color: #fff;
 }
 
+
+.social-bar{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-github {
+	background: #000000;
+}
+
+.icon-google3{
+	background: #ae181f;
+}
+
+.icon-blogger {	
+	color: #E4902D;
+}
+
+.icon-profile {	
+	color: #27D65D;
+}
+
+.icon-book{
+	color: #980D0D;
+}
+
+.icon-home2{
+	color:#6506B6;
+}
+
+.icon-user{
+	color: #339DC5;
+}
+
+.icon-grin2{
+	color: #339DC5;
+}
+.icon:hover {
+	color: white;
+	padding-right: 5rem;
+	border-radius: 2rem 0 0 2rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0);
+	text-decoration: none;
+}
+
+
+.button span{
+	margin-right: 10px;
+}

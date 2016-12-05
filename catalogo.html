@@ -6,32 +6,52 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos2.css">
+	<link rel="stylesheet" href="css/fonts.css">
 </head>
-<body>
+<body class="fondo">
+
+	<div class="social-bar">
+		<a href="https://www.facebook.com/kokabeth" class="icon icon-facebook" ></a>
+		<a href="https://twitter.com/ewolha" class="icon icon-twitter" ></a>
+		<a href="https://github.com/cocabet" class="icon icon-github"></a>
+		<a href="#" class="icon icon-google3"></a>
+	</div>
+
 
 <header>
 		<div class="container">
 			<h1>Programación Web</h1>
 		</div>
 	</header>
-<p>
 <div class="container"> 
+    
+    		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<ul class="nav  nav-justified lead">
+  					<li role="presentation"><a href="index.html" class="button"><span class="icon-home2"></span>Principal</a></li>
+  					<li role="presentation"><a href="#" class="button"><span class="icon-user"></span>Acerca de</a></li>
+  					<li role="presentation"><a href="catalogo.html" class="button"><span class="icon-book"></span>Catálogo</a></li>
+  					<li><a href="#" class="button"><span class="icon-blogger"></span>Blog</a></li>
+  					<li role="presentation"><a href="#" class="button"><span class="icon-profile"></span>Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+
     <form class="form-group">
-        <select class="form-control" id="institutos">
+       	<label class="control-label">Seleccionar Instituto</label>
+       	<select class="form-control" id="institutos">
             <option value="0">Ninguno</option>
         </select>
     </form>
-	
+
+	<label class="control-label">Seleccionar Profesor</label>
 	<div class="row">
 		<div class=" col-xs-12 col-sm-6 col-md-6">
-			
 	        <form class="form-group">
                 <select class="form-control" id="profesores">
                     <option value="0">Ninguno</option>
                 </select>
             </form>
-			<!--<ul class="list-group" id="profesores">
-			</ul>-->
 		</div>
 
 		<div class="color1 col-xs-12 col-sm-6 col-md-6" id="InfProf">
@@ -39,20 +59,23 @@
 	</div>			
 </div>
 
+
 <div class="container">
-	
-
-	<button class="btn btn-primary" onclick="GraphicsPI()">Profesores por Instituto</button>
-	<div class="btn-group">
-	 <button  class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	 	Matricula por Carrera <span class="caret"></span>
-    </button>
-    <ul id="matricula" class="dropdown-menu" >
+	<label class="control-label">Graficación</label>
+	<div class="row container">
+		<button class="btn btn-primary" onclick="GraphicsPI()">Profesores por Instituto</button>
+		
+		<div class="btn-group">
+	 		<button  class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	 			Matricula por Carrera <span class="caret"></span>
+    		</button>
+    		<ul id="matricula" class="dropdown-menu" >
       
-    </ul>
-  </div>
-
-	<button class="btn btn-primary" onclick="RemoveGraphics()">Quitar Gráfica</button>
+    		</ul>
+  	</div>
+		<button class="btn btn-primary" onclick="RemoveGraphics()">Quitar Gráfica</button>
+	
+	</div>
 	
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 container" id="pintar">

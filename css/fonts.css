@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?sczkl0');
-  src:  url('fonts/icomoon.eot?sczkl0#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?sczkl0') format('truetype'),
-    url('fonts/icomoon.woff?sczkl0') format('woff'),
-    url('fonts/icomoon.svg?sczkl0#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?o0h60x');
+  src:  url('fonts/icomoon.eot?o0h60x#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?o0h60x') format('truetype'),
+    url('fonts/icomoon.woff?o0h60x') format('woff'),
+    url('fonts/icomoon.svg?o0h60x#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-home2:before {
+  content: "\e901";
+}
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-grin2:before {
+  content: "\e9ea";
+}
 .icon-google3:before {
   content: "\ea8a";
 }
@@ -35,5 +50,8 @@
 }
 .icon-github:before {
   content: "\eab0";
+}
+.icon-blogger:before {
+  content: "\eab7";
 }
 
